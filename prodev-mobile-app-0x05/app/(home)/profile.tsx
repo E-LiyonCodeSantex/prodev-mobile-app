@@ -7,3 +7,5 @@ const profile = () =>{
         </View>
     )
 }
+
+export default profile

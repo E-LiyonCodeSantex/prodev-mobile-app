@@ -1,6 +1,6 @@
 import { View, Text } from "react-native"
 
-const profile = () =>{
+export default function save(){
     return (
         <View>
             <Text> Save Screen</Text>

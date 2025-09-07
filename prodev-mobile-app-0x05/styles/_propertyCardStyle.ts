@@ -7,10 +7,22 @@ const styles = StyleSheet.create({
       overflow: "hidden",
       marginBottom: 16,
     },
+    cardContainer: {
+        padding: 10,
+        backgroundColor: "#fff",
+        borderRadius: 15,
+        shadowColor: "#000",
+        marginBottom: 16,
+    },
+    imageBackground: {
+        height: 300,
+        borderRadius: 15,
+        overflow: "hidden",
+    },
     overlay: {
-      height: 400,
+      height: 300,
       backgroundColor: "rgba(0,0,0,0.3)",
-      padding: 16,
+      padding: 10,
       justifyContent: "space-between",
     },
     favoriteGroup: {
@@ -48,7 +60,7 @@ const styles = StyleSheet.create({
       fontWeight: 500,
     },
     cardTextGroup: {
-      width: 205,
+      width: 180,
     },
     cardLargeText: {
       fontSize: 30,
@@ -62,13 +74,15 @@ const styles = StyleSheet.create({
     },
     cardGroup: {
       flexDirection: "row",
-      columnGap: 40,
-      alignItems: "center",
+      columnGap: 15,
+      alignItems: "flex-end",
     },
     group: {
-      position: "absolute",
-      bottom: 30,
-      left: 30,
+        flex: 1,
+        justifyContent: "flex-end",
+        alignItems: "flex-start",
+        paddingBottom: 10,
+
     },
   });
 

@@ -1,6 +1,6 @@
 import { View, Text } from "react-native"
 
-const profile = () =>{
+export default function inbox(){
     return (
         <View>
             <Text> Inbox Screen</Text>

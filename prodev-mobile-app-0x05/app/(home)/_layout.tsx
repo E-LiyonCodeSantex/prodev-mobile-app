@@ -38,3 +38,5 @@ const homeRootLayout = () =>{
         </Tabs>
     )
 }
+
+export default homeRootLayout

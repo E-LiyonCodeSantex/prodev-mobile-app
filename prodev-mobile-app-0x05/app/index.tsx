@@ -53,10 +53,14 @@ export default function Index() {
             </View>
 
             {/* Footer Text */}
-            <View style={styles.buttonGroupSubText}>
+            <TouchableOpacity
+              style={styles.buttonGroupSubText}
+              onPress={() => router.push("/(home)")}
+            >
               <Text style={styles.titleSubText}>Continue to home </Text>
-                <Ionicons name="arrow-forward" style={styles.titleSubText} />
-            </View>
+              <Ionicons name="arrow-forward" style={styles.titleSubText} />
+            </TouchableOpacity>
+
           </View>
         </ImageBackground>
       </SafeAreaView>
