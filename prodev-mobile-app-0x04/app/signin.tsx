@@ -4,7 +4,7 @@ import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { HEROLOGOGREEN, GOOGLELOGO, FACEBOOKLOGO } from "@/constants";
 
 export default function SignInScreen() {
